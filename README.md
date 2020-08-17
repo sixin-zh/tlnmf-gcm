@@ -70,7 +70,8 @@ Figure 2: For each run, the W and H are stored, see e.g.
 Table 2: run the matlab code eval_bss_mat.m by commenting out the line below #TL-NMF.
 
 # Acknowledgement
-This code is adapted from: https://github.com/pierreablin/tlnmf
+This code is adapted from: https://github.com/pierreablin/tlnmf/. 
+The BSS eval toolbox is from: http://bass-db.gforge.inria.fr/bss_eval/.
 
 # License
 The MIT License (MIT)
