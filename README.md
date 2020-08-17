@@ -1,4 +1,4 @@
-# Identifiability of TL-NMF
+# Identifiability of TL-NMF (code to be released by Auguest 31th 2020)
 Sixin Zhang, Emmanuel Soubies, and Cédric Févotte. On the Identifiability of Transform Learning for Non-negative Matrix Factorization. IEEE Signal Processing Letters. 2020.
 
 # Install package TLNMF using Python (3.6)
@@ -38,12 +38,12 @@ You may check the quality of the regression by looking at, e.g.
 ```
 The orange curve is a fit for the original cosine atom (from the DCT). 
 
-Figure 2: The W and H are shown in for each run, e.g. 
+Figure 2: For each run, the W and H are stored, see e.g. 
 ```
 ./results_dct2/nonstationary440_sim2_win4_ws40ms_run1/isnmf_dctsci_batch_nonstationary440_sim2_K2_eps5e-07_WH.png
 ```
 
-Table 2: run the matlab code: eval_bss_mat.m
+Table 2: To evaluate the BSS performance from the 5 runs, run the matlab code eval_bss_mat.m
 
 *p.s. To test other types of DCT, e.g. DCT I, change the -dct 2 to -dct 1 in the run_isnmf.sh*
 
@@ -62,15 +62,15 @@ You may check the quality of the regression by looking at, e.g.
 ```
 The orange curve is a fit for the learnt atoms of TL-NMF. 
 
-Figure 2: The W and H are shown in for each run, e.g. 
+Figure 2: For each run, the W and H are stored, see e.g. 
 ```
 ./results_pertl20/nonstationary440_sim2_win4_ws40ms_run1/tlnmf2_sci_batch_nonstationary440_sim1_K2_eps5e-07_WH.png
 ```
 
-Table 2: run the matlab code: eval_bss_mat.m
+Table 2: run the matlab code eval_bss_mat.m by commenting out the line below #TL-NMF.
 
 # Acknowledgement
-Part of the code is adapted from: https://github.com/pierreablin/tlnmf
+This code is adapted from: https://github.com/pierreablin/tlnmf
 
 # License
 The MIT License (MIT)
