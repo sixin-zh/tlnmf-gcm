@@ -72,3 +72,5 @@ Table 2: run the matlab code: eval_bss_mat.m
 # Acknowledgement
 Part of the code is adapted from: https://github.com/pierreablin/tlnmf
 
+# License
+The MIT License (MIT)
