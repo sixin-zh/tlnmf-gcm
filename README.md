@@ -1,4 +1,4 @@
-# Identifiability of TL-NMF (code to be released by Auguest 31th 2020)
+# Identifiability of TL-NMF (code to reproduce the numerical results)
 Sixin Zhang, Emmanuel Soubies, and Cédric Févotte. On the Identifiability of Transform Learning for Non-negative Matrix Factorization. IEEE Signal Processing Letters. 2020.
 
 # Install package TLNMF using Python (3.6)
